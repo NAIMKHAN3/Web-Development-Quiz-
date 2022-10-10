@@ -1,0 +1,29 @@
+.navbar a {
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 60px;
+    color: white;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+.navbar {
+
+    /* margin-top: -19px;
+    margin-bottom: -19px; */
+    /* font-size: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 31, 31);
+    color: rgb(255, 199, 46);
+    padding-left: 40px;
+}
+
+.navbar h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+}

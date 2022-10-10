@@ -1,0 +1,7 @@
+.home-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 150px;
+    gap: 10px;
+    margin-top: 10px;
+}
