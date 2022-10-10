@@ -1,0 +1,9 @@
+.quiz-container {
+    text-align: center;
+}
+
+.quiz-option {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}

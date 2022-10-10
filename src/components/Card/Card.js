@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import './Card.css';
 
 const Card = ({ quiz }) => {
-    console.log(quiz)
+
     const { name, total, logo, id } = quiz
     return (
         <div className='card'>
