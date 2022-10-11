@@ -1,12 +1,12 @@
 import React from 'react';
 import './option.css'
 
-const Option = ({ option }) => {
+const Option = ({ option, handleOption }) => {
     return (
         <div className=''>
             {/* <input type="radio"> {option}</input> */}
             {/* <p>{option}</p> */}
-            <button className='option'>{option}</button>
+            <button onClick={() => handleOption(option)} className='option'>{option}</button>
 
             {/* <label>{option}</label><br /> */}
 
