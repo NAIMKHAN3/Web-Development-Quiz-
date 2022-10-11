@@ -1,12 +1,18 @@
 import React from 'react';
-import { faArrowRightLong, faEye } from '@fortawesome/free-solid-svg-icons';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Swal from 'sweetalert2';
 import Option from '../Option/Option';
 import './Question.css'
+import { useState } from 'react';
 
 const Question = ({ questions }) => {
-    console.log(questions.correctAnswer)
+
+
+
+
+
+    // console.log(count)
     const { options, question, correctAnswer } = questions
 
     const tost = () => {
@@ -33,7 +39,7 @@ const Question = ({ questions }) => {
 
 
     const handleOption = (option) => {
-        console.log(option)
+
         if (option === correctAnswer) {
             tost()
         }
@@ -43,9 +49,11 @@ const Question = ({ questions }) => {
 
     }
 
+
+
     return (
         <div className='question-container'>
-            <div><h2>quiz : {`${question}`}</h2></div>
+            <div><h2>quiz  : {question}</h2></div>
             <div className='eye-div'><button onClick={handleIcon} className='eye-icon'><FontAwesomeIcon className='eye-icon' icon={faEye} /></button></div>
             <div className='quiz-option'>
 
