@@ -12,8 +12,8 @@ const Card = ({ quiz }) => {
             <img src={logo} alt="" />
             <div className='card-info'>
                 <h2 className='name'>Name: <span className=''>{name}</span></h2>
-                <h3>Total: {total}</h3>
-                <NavLink to={`/card/${id}`}><button className='card-btn'>Start Practice <FontAwesomeIcon icon={faArrowRightLong} /></button></NavLink>
+                <h3>Question: {total}</h3>
+                <NavLink to={`/card/${id}`}><button className='card-btn'> Quiz Start <FontAwesomeIcon icon={faArrowRightLong} /></button></NavLink>
             </div>
         </div>
     );

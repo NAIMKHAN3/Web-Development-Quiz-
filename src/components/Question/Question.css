@@ -1,0 +1,6 @@
+.question-container {
+    border: 2px solid blue;
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+}
