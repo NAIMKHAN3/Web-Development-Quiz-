@@ -16,6 +16,9 @@ const Question = ({ questions }) => {
             'success'
         )
     }
+    const tostIcon = () => {
+        Swal.fire(`Right Answer: ${correctAnswer}`)
+    }
     const tostFalse = () => {
         Swal.fire({
             icon: 'error',
@@ -23,6 +26,9 @@ const Question = ({ questions }) => {
             text: 'Your Answer Is Rong Answer',
 
         })
+    }
+    const handleIcon = () => {
+        tostIcon()
     }
 
 
@@ -39,8 +45,8 @@ const Question = ({ questions }) => {
 
     return (
         <div className='question-container'>
-            <div><h2>quiz : {question}</h2></div>
-            <div className='eye-div'><button className='eye-icon'><FontAwesomeIcon className='eye-icon' icon={faEye} /></button></div>
+            <div><h2>quiz : {`${question}`}</h2></div>
+            <div className='eye-div'><button onClick={handleIcon} className='eye-icon'><FontAwesomeIcon className='eye-icon' icon={faEye} /></button></div>
             <div className='quiz-option'>
 
                 {

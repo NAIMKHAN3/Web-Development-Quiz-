@@ -1,7 +1,29 @@
 .home-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 150px;
-    gap: 10px;
+    width: 100%;
+    /* margin: auto; */
     margin-top: 10px;
+    /* margin-left: 50px; */
+    /* margin: auto */
+}
+
+.card-parant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .home-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+
+
+        gap: 10px;
+        /* padding-left: 20px; */
+        /* margin: auto; */
+    }
 }

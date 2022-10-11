@@ -1,0 +1,13 @@
+.charts {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.charts h1 {
+    color: rgb(212, 138, 0);
+}

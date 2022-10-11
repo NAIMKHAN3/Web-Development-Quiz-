@@ -13,12 +13,9 @@ const Quiz = () => {
         <div className='quiz-container'>
             <h1>Quiz Of {name} </h1>
             <div>
-
                 {
                     questions.map(questions => <Question key={questions.id} questions={questions}></Question>)
                 }
-
-
             </div>
 
         </div>

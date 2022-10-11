@@ -11,11 +11,13 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            <div className='home-card'>
+            <div className='card-parant'>
+                <div className='home-card'>
 
-                {
-                    quizs.map(quiz => <Card key={quiz.id} quiz={quiz}></Card>)
-                }
+                    {
+                        quizs.map(quiz => <Card key={quiz.id} quiz={quiz}></Card>)
+                    }
+                </div>
             </div>
         </div>
     );

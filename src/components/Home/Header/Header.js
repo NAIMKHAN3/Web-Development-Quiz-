@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
     return (
         <div className='header'>
-            <img src={image} alt="" />
+            <img className='img' src={image} alt="" />
             <div className='header-info'>
                 <h1>Web Developer</h1>
                 <h4>To become a web developer you need to learn</h4>

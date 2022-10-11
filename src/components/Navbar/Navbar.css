@@ -1,7 +1,12 @@
 .navbar a {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
     text-decoration: none;
     font-size: 17px;
     margin-right: 60px;
+    margin-top: 10px;
     color: white;
 }
 
@@ -26,4 +31,38 @@
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+
+        /* margin-top: -19px;
+        margin-bottom: -19px; */
+        /* font-size: 20px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(34, 31, 31);
+        color: rgb(255, 199, 46);
+        padding-left: 40px;
+    }
+
+    .navbar a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 17px;
+        margin-right: 60px;
+        margin-top: 10px;
+        color: white;
+    }
+
+
+}
+
+.active {
+    background-color: rgb(190, 127, 10);
 }
