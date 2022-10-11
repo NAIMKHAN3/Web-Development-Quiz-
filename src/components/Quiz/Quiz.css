@@ -11,3 +11,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
+
+.quiz-container h1 {
+    color: rgb(138, 16, 252);
+}
