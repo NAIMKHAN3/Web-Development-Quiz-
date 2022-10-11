@@ -6,11 +6,16 @@
     align-items: center; */
 }
 
-.quiz-option {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+
+@media only screen and (min-width: 768px) {
+
+    .quiz-option {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
 }
+
 
 .quiz-container h1 {
     color: rgb(138, 16, 252);
