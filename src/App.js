@@ -17,6 +17,10 @@ function App() {
           element: <Home></Home>, errorElement: <ErrorPage></ErrorPage>
         },
         {
+          path: '/home', loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
+          element: <Home></Home>, errorElement: <ErrorPage></ErrorPage>
+        },
+        {
           path: '/charts', loader: () => fetch('https://openapi.programming-hero.com/api/quiz'), element: <Charts></Charts>, errorElement: <ErrorPage></ErrorPage>
         },
         {

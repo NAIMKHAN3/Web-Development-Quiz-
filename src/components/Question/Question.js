@@ -53,7 +53,7 @@ const Question = ({ questions }) => {
 
     return (
         <div className='question-container'>
-            <div><h2>quiz  : {question}</h2></div>
+            <div><h2>quiz  : {question} </h2></div>
             <div className='eye-div'><button onClick={handleIcon} className='eye-icon'><FontAwesomeIcon className='eye-icon' icon={faEye} /></button></div>
             <div className='quiz-option'>
 
