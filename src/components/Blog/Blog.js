@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import './Blog.css'
 
 const Blog = () => {
@@ -20,6 +21,7 @@ const Blog = () => {
                 <h3>Question 3 : What is useRef hook in react?</h3>
                 <p>Ans: The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.</p>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

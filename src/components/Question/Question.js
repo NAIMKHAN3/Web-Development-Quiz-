@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Swal from 'sweetalert2';
 import Option from '../Option/Option';
 import './Question.css'
-import { useState } from 'react';
+
 
 const Question = ({ questions }) => {
 

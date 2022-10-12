@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Card from '../Card/Card';
+import Footer from '../Footer/Footer';
 import Header from './Header/Header';
 import './Home.css'
 
@@ -19,6 +20,7 @@ const Home = () => {
                     }
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

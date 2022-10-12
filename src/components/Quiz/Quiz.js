@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 import Question from '../Question/Question';
 import './Quiz.css'
@@ -20,7 +21,7 @@ const Quiz = () => {
                     questions.map(questions => <Question key={questions.id} questions={questions}></Question>)
                 }
             </div>
-
+            <Footer></Footer>
         </div>
     );
 };
